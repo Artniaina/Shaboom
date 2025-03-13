@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snakeu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="score">Score: <span id="score">0</span></div>
+        <div class="game-board" id="gameBoard"></div>
+        <div class="controls">
+            <button onclick="startGame()">Start the game</button>
+            <div class="mobile-controls">
+                <button onclick="changeDirection('ArrowUp')">↑</button>
+                <div class="horizontal-controls">
+                    <button onclick="changeDirection('ArrowLeft')">←</button>
+                    <button onclick="changeDirection('ArrowRight')">→</button>
+                </div>
+                <button onclick="changeDirection('ArrowDown')">↓</button>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
