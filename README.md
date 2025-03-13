@@ -1,4 +1,4 @@
 
 # Shaboom 
-Just some simple game
 
+Just some simple JavaScript games.

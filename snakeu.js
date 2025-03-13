@@ -101,7 +101,7 @@ function updateGameBoard() {
 
 function gameOver() {
     clearInterval(gameInterval);
-    alert(`Game Over! Score: ${score}`);
+    document.getElementById('gameOverMessage').textContent = `Game Over! Score: ${score}`;
 }
 
 function changeDirection(newDirection) {
